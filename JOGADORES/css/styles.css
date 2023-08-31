@@ -1,0 +1,62 @@
+body{
+    background: linear-gradient(rgb(193, 217, 251),rgb(137, 5, 137));
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#central{
+    background: white;
+    border-radius: 10px;
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    padding: 20px;
+    flex-direction: column;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;    
+}
+button{
+    background-color: rgb(182, 18, 237);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    color: rgb(255, 253, 253);
+    height: 50px;
+    width: 150px;
+}
+#botoes{
+    display: flex;
+    flex-direction: column;
+}
+#botoes1{
+    margin-bottom: 20px;
+}
+.texto{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    color: black;
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 32px;
+}
+#jogadores{
+    width: 300px;
+    border-color: black;
+    border-radius: 10px;
+    align-content: center;
+}
+img{
+    height: 300px ;
+    width: 200px;
+}
