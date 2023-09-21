@@ -1,0 +1,45 @@
+body{
+    background-image: url("/images/22.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#relogio{
+    background: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: auto;
+    width: 600px;
+    height: 200px;
+    border-radius: 15px;
+    margin: auto;
+    justify-content: center;
+}
+#relogio p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70px;
+}
+#home-data{
+    background: white;
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#data{
+    display: flex;
+    flex-direction: row;
+}
+#home-data p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+}
