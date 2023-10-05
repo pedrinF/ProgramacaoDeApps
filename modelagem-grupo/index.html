@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <div class="login-box">
+        <h1> Login </h1>
+        <div class="form-box">
+            <label> Usuário: </label>
+            <input type="text" placeholder="Nome de usuário" id="username">
+        </div>
+        <div class="form-box">
+            <label> Senha: </label>
+            <input type="password" placeholder="Senha" id="senha">
+        </div>
+        <div class="buttons">
+        <button class="login-button" onclick="execLogin()"> Login </button>
+        <button class="signin-button" onclick='showCadastro()'> Cadastro </button>
+        </div>
+    </div>
+    <div class="signin-box">
+        <h1>Cadastro</h1>
+        <div class="form-box">
+            <label> Usuário: </label>
+            <input type="text" placeholder="Nome de usuário" id="username-signin">
+        </div>
+        <div class="form-box">
+            <label> Email: </label>
+            <input type="text" placeholder="Email">
+        </div>
+        <div class="form-box">
+            <label> Senha: </label>
+            <input type="password" placeholder="Senha">
+        </div>
+        <button id="signin-button">Cadastrar</button>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
